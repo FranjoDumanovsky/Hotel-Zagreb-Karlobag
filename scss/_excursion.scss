@@ -1,0 +1,59 @@
+.excursion {
+    background-image: radial-gradient(circle, rgba(15, 15, 15, 0.25), rgba(17, 17, 17, 0.851)), url(../img/plitvice.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8rem 3rem;
+    color: var(--clr-light);
+    width: min-content max-content;
+    position: relative;
+
+    @media (max-width:600px) {
+        padding: 4rem 0;
+
+    }
+
+
+
+   h2 {
+       margin-bottom: 5rem;
+       margin-top: 0rem;
+       margin-left: 2.5em;
+
+       @media (max-width:600px) {
+      margin-left: 0;
+      text-align: center;
+
+    }
+   }
+
+    &__container {
+        margin-bottom: 2em;
+
+        @media (min-width:1000px) {
+            display: flex;
+            gap: 2rem;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &--text {
+            color: var(--clr-white);
+            position: relative;
+            letter-spacing: 2px;
+            font-weight: 900;
+            margin: 2rem auto;
+            padding: 3rem 2rem;
+            border-radius: 30px;
+            background-color: rgba(3, 9, 19, 0.332);
+            box-shadow: var(--bs);
+
+            @media (min-width:1000px) {
+                width: 38vw;
+
+            }
+        }
+    }
+}
+

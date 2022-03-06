@@ -30,9 +30,9 @@
       const carouselRoomThreeSubtitle = document.querySelector(".carousel-room-three-subtitle");
       const carouselRoomThreeTitle = document.querySelector(".carousel-room-three-title");
       const carouselRoomThreeText = document.querySelector(".carousel-room-three-text");
-      const carouselRoomFourSubtitle = document.querySelector(".carousel-room-four-subtitle");
-      const carouselRoomFourTitle = document.querySelector(".carousel-room-four-title");
-      const carouselRoomFourText = document.querySelector(".carousel-room-four-text");
+      // const carouselRoomFourSubtitle = document.querySelector(".carousel-room-four-subtitle");
+      // const carouselRoomFourTitle = document.querySelector(".carousel-room-four-title");
+      // const carouselRoomFourText = document.querySelector(".carousel-room-four-text");
       const whiteBoxTitle = document.querySelector(".white-box-title");
       const whiteBoxText = document.querySelector(".white-box-text");
       const servicesTitle = document.querySelector(".services-title");
@@ -43,6 +43,16 @@
       const servicesSecondCardText = document.querySelector(".services-second-card-text");
       const servicesThirdCardTitle = document.querySelector(".services-third-card-title");
       const servicesThirdCardText = document.querySelector(".services-third-card-text");
+
+
+      // Excursion Section
+
+      const excursionTitle = document.querySelector(".excursion__title");
+      const excursionTextOne = document.querySelector(".excursion-text-one");
+      const excursionTextTwo = document.querySelector(".excursion-text-two");
+      const excursionTextThree = document.querySelector(".excursion-text-three");
+
+
       const contactUsSubHeader = document.querySelector(".contact-us-subheader");
       const contactUsHeader = document.querySelector(".contact-us-header");
       const phoneText = document.querySelector(".phone-text");
@@ -79,28 +89,28 @@
           aboutSubHeader: "Surrounded by nature",
           aboutText: "Hotel Zagreb is located in the town of Karlobag. The location on the seashore, surrounded by pine trees, makes it an ideal place for your vacation.",
           ctaButtonText: "Contact us",
-          carouselRoomOnesubTitle: "Overlooking the sea or the park",
+          carouselRoomOneSubTitle: "Overlooking the sea or the park",
           carouselRoomOneTitle:"Standard room",
-          carouselRoomOneText: "It is located in the main building and is equipped with a double bed, with two extra single beds and a bathroom.",
+          carouselRoomOneText: "For 2 to 4 persons, it is located in the main building and is equipped with a double bed, with two extra single beds and a bathroom. Standard rooms are available with french balcony or without balcony.",
 
-          carouselRoomTwosubTitle: "Overlooking the sea or the park",
-          carouselRoomTwoTitle:"Standard room with a french balcony",
-          carouselRoomTwoText: "It is located in the annexes of Pinija, and is equipped with a double bed, with two extra single beds and a bathroom.",
+          carouselRoomTwoSubtitle: "Overlooking the sea or the park",
+          carouselRoomTwoTitle:"Superior Room",
+          carouselRoomTwoText: "For 2 to 4 persons, it is located in the main building and is equipped with a double bed, with two extra single beds, a bathroom and a balcony with a sea view.",
 
-          carouselRoomThreesubTitle: "Overlooking the sea",
-          carouselRoomThreeTitle:"Suite room with a balcony",
-          carouselRoomThreeText: "Nalazi se u glavnoj zgradi, posjeduje dvije kupaonice, jednu spavaću sobu te dnevni boravak. Idealna za 4-5 osoba.",
+          carouselRoomThreeSubtitle: "Overlooking the sea",
+          carouselRoomThreeTitle:"Suite room",
+          carouselRoomThreeText: "Located in the main building, it has one bedroom and a living room, one big bathroom and an extra WC, as well as a big balcony with a sea view. Ideal for 4 to 5 persons.",
 
-          carouselRoomFoursubTitle: "Overlooking the sea",
-          carouselRoomFourTitle:"Superior room",
-          carouselRoomFourText: "It is located in the main building and is equipped with a double bed, with two extra single beds, a bathroom and a balcony.",
+          // carouselRoomFourSubTitle: "Overlooking the sea",
+          // carouselRoomFourTitle:"Superior room",
+          // carouselRoomFourText: "It is located in the main building and is equipped with a double bed, with two extra single beds, a bathroom and a balcony.",
           whiteBoxTitle: "<h2>SLEEP WELL<br> <span>REST WELL</span></h2>",
           whiteBoxText: "Enjoy pleasant Mediterranean weather in Karlobag with sea temperatures up to 26C in the summer",
           servicesTitle: "Services",
           servicesSubTitle: "SOMETHING FOR EVERYONE",
 
-          servicesFirstCardTitle: "EXCURSIONS",
-          servicesFirstCardText: "Karlobag is the ideal starting point for excursions to Velebit, Plitvice, Paklenica, river Una, and many more.",
+          servicesFirstCardTitle: "FUN",
+          servicesFirstCardText: "From 1st of July until 20th of September enjoy live music, and have fun with our animation programs for children and adults from 20th of June until 1st of 9 September.",
           
 
           servicesSecondCardTitle: "ACTIVITIES",
@@ -109,6 +119,15 @@
           servicesThirdCardTitle: "GASTRONOMY",
           servicesThirdCardText: "Enjoy rich and diverse flavors of the Mediterranean cuisine with a hint of the Velebit region",
           
+
+          // EXCURSION SECTION
+
+          excursionTitle: "Excursion",
+          excursionTextOne: "Karlobag is the ideal starting point for excursions to Velebit, Plitvice, Paklenica, river Una, and many more. You will talk about your unforgettable trip to the island of Pag by boat Marino for years.",
+          excursionTextTwo: "You can use the about 4 km long promenade by the sea to the neighboring town of Ribarica for running or a pleasant walk.",
+          excursionTextThree: "The large Tatinja Beach with free parking and catering facilities is just a minute’s drive or a 10-minute walk from the hotel.",
+
+
           contactUsSubHeader: "Need more information?",
           contactUsHeader: "<span>Lets get in </span> touch!",
           phoneText: "Phone",
@@ -131,66 +150,7 @@
 
         },
         hr: {
-           
-          welcomeSubHeader: "Hotel Zagreb Karlobag", 
-          welcomeHeader: "VIŠE OD ODMORA!",
-          aboutHeader: "O hotelu",
-          aboutSubHeader: "Okružen prirodom",
-          aboutText: "Hotel Zagreb smješten je u gradiću Karlobagu. Položaj na samoj obali mora, u okruženju borova, čini ga idealnim mjestom za Vaš odmor.",
-          ctaButtonText: "Javi nam se",
-
-          carouselRoomOneSubtitle: "S pogledom na more ili park",
-          carouselRoomOneTitle:"Standard soba",
-          carouselRoomOneText: "Nalazi se u glavnoj zgradi, a opremljena je s krevetom za dvije osobe, s dva dodatna kreveta za jednu osobu i kupaonicom.",
-
-          carouselRoomTwoSubtitle: "S pogledom na more ili park",
-          carouselRoomTwoTitle:"Standard Soba s francuskim balkonom",
-          carouselRoomTwoText: "Nalazi se u depadansama Pinija, a opremljena je s krevetom za dvije osobe, s dva dodatna kreveta za jednu osobu i kupaonicom.",
-
-          carouselRoomThreeSubtitle: "S pogledom na more",
-          carouselRoomThreeTitle:"Suite soba s balkonom",
-          carouselRoomThreeText: "Nalazi se u glavnoj zgradi, posjeduje dvije kupaonice, jednu spavaću sobu te dnevni boravak. Idealna za 4-5 osoba.",
-
-          carouselRoomFourSubtitle: "S pogledom na more",
-          carouselRoomFourTitle:"Superior soba",
-          carouselRoomFourText: "Nalazi se u glavnoj zgradi, a opremljena je s krevetom za dvije osobe, s dva dodatna kreveta za jednu osobu, kupaonicom i balkonom.",
-          whiteBoxTitle: "<h2>Dobar San<br> <span>Dobar Odmor</span></h2>",
-          whiteBoxText: "Uživajte u ugodnoj mediteranskoj klimi u Karlobagu s temperaturom mora ljeti i do 26C",
-          servicesTitle: "Usluge",
-          servicesSubTitle: "ZA SVAKOGA PONEŠTO",
-
-          servicesFirstCardTitle: "IZLETI",
-          servicesFirstCardText: "Karlobag je idealno polazište za izlete na Velebit, Plitvice, Paklenicu, rijeku Unu, ili otoke Pag i Rab.",
           
-
-          servicesSecondCardTitle: "AKTIVNOSTI",
-          servicesSecondCardText: "Vanjski i unutarnji bazen, finska sauna, igralište za tenis, odbojku i minigolf za goste koji vole aktivan odmor",
-          
-          servicesThirdCardTitle: "GASTRONOMIJA",
-          servicesThirdCardText: "Uživajte u bogatim i raznolikim okusima mediteranske kuhinje Velebitskog stila za svaki ukus",
-          
-          contactUsSubHeader: "Trebate više informacija?",
-          contactUsHeader: "<span>Kontaktirajte</span> nas!",
-          phoneText: "Mobitel",
-          meetText: "Lokacija",
-          countryText: "Hrvatska",
-          connectText: "Javi se",
-
-          ctaButtonSubmitText: "Pošalji",
-          ctaButtonText: "Javi nam se",
-
-          linkAboutUs: "O Hotelu",
-          linkContacts: "Javi nam se",
-          linkServices: "Usluge",
-          linkRooms : "Sobe",
-
-
-          nameText: "Ime",
-          emailText: "Email",
-          messageText: "Poruka",
-          errorHintEmail: "Tvoj email nije ispravan",
-          errorHintName: "Tvoje ime nije ispravno"
-
         },
       };
     
@@ -216,7 +176,7 @@
           language.eng.aboutText;
 
           carouselRoomOneSubtitle.textContent =
-            language.eng.carouselRoomOnesubTitle;
+            language.eng.carouselRoomOneSubTitle;
 
             carouselRoomOneTitle.textContent =
             language.eng.carouselRoomOneTitle;
@@ -284,6 +244,21 @@
 
           servicesThirdCardText.textContent =
           language.eng.servicesThirdCardText;
+
+
+          // Excursion Section 
+
+          excursionTitle.textContent = 
+          language.eng.excursionTitle
+
+          excursionTextOne.textContent =
+          language.eng.excursionTextOne
+
+          excursionTextTwo.textContent = 
+          language.eng.excursionTextTwo
+
+          excursionTextThree.textContent =
+          language.eng.excursionTextThree
 
           contactUsSubHeader.textContent =
           language.eng.contactUsSubHeader;

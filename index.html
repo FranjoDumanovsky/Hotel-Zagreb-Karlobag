@@ -7,9 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Raleway:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">   
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
     
     <title>Hotel Zagreb Karlobag</title>
 </head>
@@ -225,75 +228,38 @@
     </section>
 
      <!-- my services -->
-     <div class="izleti" id="izleti">
-        <h2 class="izleti__title izleti__title--services">
+     <div class="excursion" id="excursion">
+        <h2 class="excursion__title excursion__title--services">
           IZLETI
         </h2>
-        <div class="izleti__container">
-          <div class="izleti__container--text">
-            <p>
+        <div class="excursion__container">
+          <div class="excursion__container--text">
+            <p class="excursion-text-one">
                 Karlobag je idealno polazište za izlete na Velebit, Plitvice, Paklenicu, rijeku Unu, ili otoke Pag i Rab.
                 Nezaboravan izlet na otok Pag brodom Marino ostat će u sjećanju svakog gosta.
             </p>
           </div>
-          <div class="izleti__container--text">
-            <p>
+          <div class="excursion__container--text">
+            <p class="excursion-text-two">
                 Šetnicu uz more oko 4 km do susjednog mjesta Ribarica  možete koristiti za trčanje ili ugodnu šetnju.  
             </p>
           </div>
-          <div class="izleti__container--text">
+          <div class="excursion__container--text">
      
-            <p>
+            <p class="excursion-text-three">
                 Velika plaža Tatinja s besplatnim parkingom i ugostiteljskim sadržajima je samo minut vožnje ili 10 minuta šetnje od hotela. 
             </p>
           </div>
         </div>
     </div>
-<div class="gl-carousel-container">
-<div class="gl-carousel">
-    <button class="gl-carousel__button gl-carousel__button--right ">
-
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
-          </svg>
-    </button>
-
-
-        <div class="gl-carousel__track-container">
-            <ul class="gl-carousel__track">
-                <li class="gl-carousel__slide current-slide">
-                    <img class="gl-carousel__image" src="img/plaza-tatinja.webp" alt="">
-                </li>
-                <li class="gl-carousel__slide">
-                    <img class="gl-carousel__image" src="img/terasa.webp" alt="">
-                </li>
-                <li class="gl-carousel__slide">
-                    <img class="gl-carousel__image" src="img/plaza-karlobag.webp" alt="">
-                </li>
-                <li class="gl-carousel__slide">
-                    <img class="gl-carousel__image" src="img/bazen-hotel-karlobag.webp" alt="">
-                </li>
-    
-            </ul>
-        </div>
- 
-
-
-
-    <button class="gl-carousel__button gl-carousel__button--left is-hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
-          </svg>
-
-    </button>
-
-    <div class="gl-carousel__nav">
-        <button class="gl-carousel__indicator current-slide"></button>
-        <button class="gl-carousel__indicator"></button>
-        <button class="gl-carousel__indicator"></button>
-        <button class="gl-carousel__indicator"></button>
-    </div>
-</div>
+<div class="slick-carousel">
+    <div class="your-class">
+        <img class="" src="img/panorama-01.jpg" alt="">
+        <img class="" src="img/plaza-tatinja.webp" alt="">
+        <img class="" src="img/plaza-karlobag.webp" alt="">
+        <img class="" src="img/bazen-hotel-karlobag.webp" alt="">
+        <img class="" src="img/zavratnica 2.JPG" alt="">
+      </div>
 
 </div>
 
@@ -349,15 +315,26 @@
     </div>
 </section>
 
+<div class="carous">
+
+
+
+</div>
 
 
 
 
-<script src="prijava.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="prijava.js"></script>
     <script src="carousel.js"></script>   
-    <script src="gl-carousel.js"></script>   
     <script src="main.js"></script>
     <script src="lang.js"></script>
+    <!-- <script src="gl-carousel.js"></script>    -->
 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="slickCarousel.js"></script>
 </body>
 </html>

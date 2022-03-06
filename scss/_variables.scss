@@ -1,0 +1,29 @@
+
+:root {
+    --ff-primary: 'Marcellus', serif;
+    --ff-secondary: 'Raleway', sans-serif;;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: rgb(228, 228, 228);
+    --clr-background: rgb(236, 236, 236);
+    --clr-dark: #494949;
+    --clr-accent: rgb(0, 157, 248);
+    --clr-gray: rgba(46, 63, 73, 0.445);
+
+    --fs-h1: 3.5rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 0.9rem;
+
+    --bs: .3em 0.3em 0.8em rgb(0,0,0,.3),
+          0.13em 0.13em 0.3em rgba(0,0,0,.15);
+
+    @media  (min-width:50em) {
+        --fs-h1: clamp(1rem, 7vw + 1rem, 6.8rem);
+        --fs-h2: 3.3rem;
+        --fs-h3: 1.9rem;
+        --fs-body: 1rem;
+    }
+}
