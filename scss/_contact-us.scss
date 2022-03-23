@@ -119,16 +119,20 @@ display: block;
 .hidden {
   display: none;
 }
+.success-text {
+  visibility: hidden;
+}
 
 .success-message {
-  opacity: 0;
+  display: block;
+  opacity: 1;
   animation: statusSuccess 2s ease forwards;
   margin-top: 2rem;
   color: var(--clr-accent);
   font-size: 1.2rem;
-visibility: hidden;
+  visibility: visible;
   @media (max-width: 45em) {
-text-align: center;
+    text-align: center;
 }
 
   @keyframes statusSuccess {
@@ -136,6 +140,7 @@ text-align: center;
       0% {
         opacity: 1;
         pointer-events: all;
+
 
       }
       90% {
@@ -147,6 +152,7 @@ text-align: center;
       100% {
           opacity: 0;
           pointer-events: none;
+
       }
       
   }

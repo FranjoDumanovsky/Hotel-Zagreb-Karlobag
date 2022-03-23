@@ -1,7 +1,7 @@
 const form = document.querySelector("form");
 const nameInput = document.querySelector("input[name='name']");
 const emailInput = document.querySelector("input[name='email']");
-const successMessage = document.querySelector(".success-message");
+const successMessage = document.querySelector(".success-text");
 
 
 // Validating the inputs for email and name
@@ -58,6 +58,8 @@ inputFields.forEach((input) => input.addEventListener("input", validateInputs));
 async function handleSubmit(event) {
   event.preventDefault();
   console.log("we are here");
+  successMessage.classList.add("success-message");
+
   var data = new FormData(event.target);
   fetch(event.target.action, {
     method: form.method,

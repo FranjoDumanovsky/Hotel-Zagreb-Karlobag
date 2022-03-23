@@ -340,14 +340,14 @@ header.hero .hero__content {
   letter-spacing: 1.8;
   line-height: 2;
   min-width: 70%;
-  padding: 8em 8em;
+  padding: 10vh 15vw;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.25);
   border: solid 5px rgba(0, 211, 248, 0.316);
 }
 @media (max-width: 1000px) {
   header.hero .hero__content {
-    padding: 2em 2em;
+    padding: 2vh 2wv;
     min-width: 80%;
   }
 }
@@ -365,7 +365,7 @@ header.hero .hero__content {
 @media (min-width: 1750px) {
   header.hero .hero__content {
     min-width: 50%;
-    padding: 6em 12em;
+    padding: 6vh 12vw;
     top: 40%;
   }
 }
@@ -854,14 +854,19 @@ header.hero .hero__content h4 {
   display: none;
 }
 
+.success-text {
+  visibility: hidden;
+}
+
 .success-message {
-  opacity: 0;
+  display: block;
+  opacity: 1;
   -webkit-animation: statusSuccess 2s ease forwards;
           animation: statusSuccess 2s ease forwards;
   margin-top: 2rem;
   color: var(--clr-accent);
   font-size: 1.2rem;
-  visibility: hidden;
+  visibility: visible;
 }
 @media (max-width: 45em) {
   .success-message {
