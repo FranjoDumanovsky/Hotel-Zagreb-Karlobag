@@ -6,15 +6,12 @@
 
 
 <ul>
-  Features: 
+  <strong>Features: </strong> 
   <li>
   Swiper Carousel
   </li>
   <li>
   Translated to 2 languages 
-  </li>
-    <li>
-  
   </li>
 
 </ul>
